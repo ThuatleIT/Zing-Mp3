@@ -1,0 +1,233 @@
+/* Mobie - tablet */
+@media (max-width: 1023px) {
+    .hide-on-tablet-mobile {
+        display: none;
+    }
+    
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .header {
+        width: 90%;
+    }
+
+    .app__sidebar {
+        width: 10%;
+        background-color: #2a213a ;
+   
+    }
+
+    .sidebar__small-logo {
+        display: block;
+    }
+
+    .sidebar__item-link {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+
+    .sidebar__item-link i{
+        width: 100%;
+        height: 100%;
+        margin-right: 0px;
+    }
+
+    .sidebar__expand {
+        display: block;
+    }
+
+    .sidebar__menu-link span {
+        display: none;
+    }
+
+    .sidebar__subnav-menu { 
+        font-size: 14px;
+        align-items: center;
+    }
+
+    .sidebar__menu-item {
+        height: 40px;
+        margin: 10px;
+    }
+
+    .sidebar__menu-item.menu-header {
+        display: none;
+    }
+
+    .radio__item-title {
+        position: absolute;
+        top: 140px;
+        left: 55px;
+    }
+
+    .radio__item-logo {
+        top: 100px;
+    }
+}
+
+/* Mobie */
+
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .header__with-search {
+        margin: 0 5px;
+    }
+
+   
+    .content__navbar-menu {
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .content__navbar-item {
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+        min-width: unset;
+    }
+
+    .playlist__list {
+        margin: 15px 0 0 10px;
+    }
+
+    .playlist__list-title {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .playlist__song-option {
+        width: 30px;
+    }
+
+    .playlist__heading  {
+        font-size: 12px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+
+    .playlist__add-icon {
+        font-size: 30px;
+    }
+
+    .playlist__add-text {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .artist__name,
+    .artist__number {
+        font-size: 10px;
+    }
+
+    .artist__info {
+        text-align: center;
+    }
+    .artist__follow-btn {
+        font-size: 10px; 
+        padding: 5px 10px;
+    }
+
+    .app__sidebar-mb {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+    }
+
+    .sidebar__nav-list {
+        display: flex;
+        flex-direction: row;
+        background-color: var(--layout-bg);
+    }
+
+    .sidebar__nav {
+        margin-bottom: 0;
+    }
+
+    .sidebar__item-link {
+        padding: 5px 10px;
+        font-size: 10px;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .sidebar__nav-item {
+        width: 20%;
+    }
+   
+    .sidebar__item-link i {
+        font-size: 15px;
+        margin-right: 0;
+    }
+
+   .artist--container {
+        margin-bottom: 30px;
+   }
+
+   .radio__img {
+        margin-bottom: 50px;
+   }
+   
+   .explore__item-link {
+        font-size: 12px;
+   }
+   .explore__item-subtitle {
+        font-size: 10px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+   }
+
+   .radio__item-logo {
+        width: 40px;
+        height: 40px;
+        top: 10px;
+        top: 60px;
+    }
+
+    .radio__item-title {
+        top: 95px;
+        left: 31px;
+    }
+
+    .number__rank {
+        font-size: 25px;
+        width: 25%;
+    }
+    
+    .playlist__list-img {
+        margin-left: 20px;
+    }
+
+    .number__rank::after {
+        content: '';
+        position: absolute;
+        width: 40%;
+        height: 1px;
+        top: 50%;
+        right: -20px;
+        background-color: var(--text-secondary);
+    }
+}
